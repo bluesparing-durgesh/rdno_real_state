@@ -82,7 +82,7 @@ export default function Home() {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-6 w-full text-center flex flex-col items-center">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 w-full text-center flex flex-col items-center pb-36">
           
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -136,9 +136,11 @@ export default function Home() {
               Consult Advisory
             </Link>
           </motion.div>
+        </div>
 
-          {/* Floating Statistics Panel */}
-          <div className="absolute bottom-8 left-6 right-6 max-w-7xl mx-auto hidden lg:grid grid-cols-4 gap-6 z-20">
+        {/* Floating Statistics Panel — positioned at section level to avoid overlap */}
+        <div className="absolute bottom-8 left-6 right-6 z-20 hidden lg:block">
+          <div className="max-w-7xl mx-auto grid grid-cols-4 gap-6">
             {stats.map((stat, idx) => {
               const Icon = stat.icon;
               return (
