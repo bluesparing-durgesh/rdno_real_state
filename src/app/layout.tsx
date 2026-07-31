@@ -19,6 +19,11 @@ export const metadata: Metadata = {
   title: "EDNO | Premium Luxury Real Estate Registry",
   description: "EDNO curates the world's most significant architectural landmarks and residential sanctuaries for discerning portfolios.",
   keywords: ["luxury real estate", "premium properties", "malibu villas", "aspen mansions", "penthouses", "architectural registry"],
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
   openGraph: {
     title: "EDNO | Premium Luxury Real Estate Registry",
     description: "EDNO curates the world's most significant architectural landmarks and residential sanctuaries.",
