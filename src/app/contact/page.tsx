@@ -87,7 +87,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <h4 className="text-xs font-bold text-zinc-800 dark:text-zinc-200">Private Line</h4>
-                <p className="text-[11px] text-zinc-400 mt-1">+1 (800) EDNO-LUX</p>
+                <p className="text-[11px] text-zinc-400 mt-1">+91 9887793100</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
@@ -148,7 +148,7 @@ export default function ContactPage() {
                 </label>
                 <input
                   type="text"
-                  placeholder="Alistair Vance"
+                  placeholder="Aditya Singhania"
                   {...register("name")}
                   className="w-full bg-white dark:bg-[#0B1120] border border-black/10 dark:border-white/10 rounded-2xl px-4 py-3.5 text-xs focus:outline-none focus:border-secondary dark:focus:border-accent text-zinc-950 dark:text-white"
                 />
@@ -164,7 +164,7 @@ export default function ContactPage() {
                   </label>
                   <input
                     type="email"
-                    placeholder="alistair@gmail.com"
+                    placeholder="aditya@gmail.com"
                     {...register("email")}
                     className="w-full bg-white dark:bg-[#0B1120] border border-black/10 dark:border-white/10 rounded-2xl px-4 py-3.5 text-xs focus:outline-none focus:border-secondary dark:focus:border-accent text-zinc-950 dark:text-white"
                   />
@@ -178,7 +178,7 @@ export default function ContactPage() {
                   </label>
                   <input
                     type="tel"
-                    placeholder="+1 (555) 012-3456"
+                    placeholder="+91 98200 12345"
                     {...register("phone")}
                     className="w-full bg-white dark:bg-[#0B1120] border border-black/10 dark:border-white/10 rounded-2xl px-4 py-3.5 text-xs focus:outline-none focus:border-secondary dark:focus:border-accent text-zinc-950 dark:text-white"
                   />

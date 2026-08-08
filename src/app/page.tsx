@@ -460,7 +460,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="text-[9px] uppercase font-bold tracking-wider text-zinc-500 dark:text-zinc-400">Direct Advisory</p>
-                  <p className="text-xs font-bold text-zinc-800 dark:text-zinc-200 mt-0.5">+1 (800) EDNO-LUX</p>
+                  <p className="text-xs font-bold text-zinc-800 dark:text-zinc-200 mt-0.5"> +91 9887793100</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
@@ -502,7 +502,7 @@ export default function Home() {
                     </label>
                     <input
                       type="text"
-                      placeholder="Alistair Vance"
+                      placeholder="Aditya Singhania"
                       {...register("name")}
                       className="w-full bg-zinc-50 dark:bg-white/[0.01] border border-black/10 dark:border-white/10 rounded-2xl px-4 py-3 text-xs focus:outline-none focus:border-secondary dark:focus:border-accent text-zinc-950 dark:text-white"
                     />
@@ -516,7 +516,7 @@ export default function Home() {
                     </label>
                     <input
                       type="email"
-                      placeholder="alistair@gmail.com"
+                      placeholder="aditya@gmail.com"
                       {...register("email")}
                       className="w-full bg-zinc-50 dark:bg-white/[0.01] border border-black/10 dark:border-white/10 rounded-2xl px-4 py-3 text-xs focus:outline-none focus:border-secondary dark:focus:border-accent text-zinc-950 dark:text-white"
                     />
@@ -532,7 +532,7 @@ export default function Home() {
                   </label>
                   <input
                     type="tel"
-                    placeholder="+1 (555) 012-3456"
+                    placeholder="+91 98200 12345"
                     {...register("phone")}
                     className="w-full bg-zinc-50 dark:bg-white/[0.01] border border-black/10 dark:border-white/10 rounded-2xl px-4 py-3 text-xs focus:outline-none focus:border-secondary dark:focus:border-accent text-zinc-950 dark:text-white"
                   />

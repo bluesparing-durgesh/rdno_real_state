@@ -78,15 +78,15 @@ export function Footer() {
           <div className="space-y-3">
             <div className="flex items-center gap-3 text-xs text-zinc-400">
               <Phone size={14} className="text-accent" />
-              <span>+1 (800) EDNO-LUX</span>
+              <span>+91 9887793100</span>
             </div>
             <div className="flex items-center gap-3 text-xs text-zinc-400">
               <Mail size={14} className="text-accent" />
-              <span>advisory@edno.luxury</span>
+              <span>info@ednorealty.com</span>
             </div>
             <div className="flex items-center gap-3 text-xs text-zinc-400">
               <MapPin size={14} className="text-accent" />
-              <span>5th Ave, Manhattan, New York, NY 10019</span>
+              <span>P.N0-103 MAA HINGLAJ, NAGAR VISTAR, DHAWAS, Vaishali Nagar, Jaipur- 302021</span>
             </div>
           </div>
         </div>

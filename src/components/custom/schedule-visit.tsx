@@ -115,7 +115,7 @@ export function ScheduleVisit({ propertyName, propertyPrice }: ScheduleVisitProp
               <div className="relative">
                 <input
                   type="text"
-                  placeholder="Alistair Vance"
+                  placeholder="Aditya Singhania"
                   {...register("name")}
                   className="w-full bg-zinc-50 dark:bg-white/[0.02] border border-black/10 dark:border-white/10 rounded-2xl pl-10 pr-4 py-2.5 text-xs focus:outline-none focus:border-secondary dark:focus:border-accent text-zinc-900 dark:text-white"
                 />
@@ -135,7 +135,7 @@ export function ScheduleVisit({ propertyName, propertyPrice }: ScheduleVisitProp
                 <div className="relative">
                   <input
                     type="email"
-                    placeholder="alistair@gmail.com"
+                    placeholder="aditya@gmail.com"
                     {...register("email")}
                     className="w-full bg-zinc-50 dark:bg-white/[0.02] border border-black/10 dark:border-white/10 rounded-2xl pl-10 pr-4 py-2.5 text-xs focus:outline-none focus:border-secondary dark:focus:border-accent text-zinc-900 dark:text-white"
                   />
@@ -153,7 +153,7 @@ export function ScheduleVisit({ propertyName, propertyPrice }: ScheduleVisitProp
                 <div className="relative">
                   <input
                     type="tel"
-                    placeholder="+1 (555) 012-3456"
+                    placeholder="+91 98200 12345"
                     {...register("phone")}
                     className="w-full bg-zinc-50 dark:bg-white/[0.02] border border-black/10 dark:border-white/10 rounded-2xl pl-10 pr-4 py-2.5 text-xs focus:outline-none focus:border-secondary dark:focus:border-accent text-zinc-900 dark:text-white"
                   />

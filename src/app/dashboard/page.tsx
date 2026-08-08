@@ -51,10 +51,10 @@ export default function DashboardPage() {
           <div className="p-6 bg-zinc-50 dark:bg-white/[0.01] border border-black/[0.04] dark:border-white/[0.04] rounded-3xl space-y-4">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full bg-secondary/15 flex items-center justify-center text-secondary dark:text-accent font-black">
-                AV
+                AS
               </div>
               <div>
-                <h4 className="text-xs font-bold text-zinc-950 dark:text-white leading-tight">Alistair Vance</h4>
+                <h4 className="text-xs font-bold text-zinc-950 dark:text-white leading-tight">Aditya Singhania</h4>
                 <p className="text-[9px] text-zinc-400 mt-0.5">Private Account</p>
               </div>
             </div>

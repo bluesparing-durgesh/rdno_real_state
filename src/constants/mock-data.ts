@@ -75,13 +75,13 @@ export interface Testimonial {
 export const AGENTS: Agent[] = [
   {
     id: "a1",
-    name: "Alistair Vance",
+    name: "Aditya Singhania",
     role: "Managing Partner & Luxury Advisory",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400&h=500",
+    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=400&h=500",
     rating: 4.95,
     experience: "14 Years",
-    phone: "+1 (555) 019-2831",
-    email: "alistair@edno.luxury",
+    phone: "+91 98200 11234",
+    email: "aditya@edno.luxury",
     socials: {
       twitter: "https://twitter.com",
       linkedin: "https://linkedin.com",
@@ -90,13 +90,13 @@ export const AGENTS: Agent[] = [
   },
   {
     id: "a2",
-    name: "Elena Rostova",
+    name: "Tara Deshmukh",
     role: "Director of International Sales",
     image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400&h=500",
     rating: 4.98,
     experience: "11 Years",
-    phone: "+1 (555) 019-4829",
-    email: "elena@edno.luxury",
+    phone: "+91 98200 22345",
+    email: "tara@edno.luxury",
     socials: {
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com",
@@ -104,13 +104,13 @@ export const AGENTS: Agent[] = [
   },
   {
     id: "a3",
-    name: "Marcus Thorne",
+    name: "Kabir Kapoor",
     role: "Senior Waterfront Specialist",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400&h=500",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400&h=500",
     rating: 4.92,
     experience: "9 Years",
-    phone: "+1 (555) 019-8811",
-    email: "marcus@edno.luxury",
+    phone: "+91 98200 33456",
+    email: "kabir@edno.luxury",
     socials: {
       twitter: "https://twitter.com",
       linkedin: "https://linkedin.com",
@@ -118,13 +118,13 @@ export const AGENTS: Agent[] = [
   },
   {
     id: "a4",
-    name: "Sophia Chen",
+    name: "Sanya Gujral",
     role: "Penthouse & Off-Market Portfolio Manager",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=400&h=500",
+    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=400&h=500",
     rating: 4.99,
     experience: "12 Years",
-    phone: "+1 (555) 019-3012",
-    email: "sophia@edno.luxury",
+    phone: "+91 98200 44567",
+    email: "sanya@edno.luxury",
     socials: {
       twitter: "https://twitter.com",
       linkedin: "https://linkedin.com",
@@ -135,7 +135,7 @@ export const AGENTS: Agent[] = [
     id: "a5",
     name: "Arjun Mehta",
     role: "India & South Asia Portfolio Director",
-    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=400&h=500",
+    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=400&h=500",
     rating: 4.97,
     experience: "13 Years",
     phone: "+91 98200 55123",
@@ -238,7 +238,7 @@ export const PROPERTIES: Property[] = [
       "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=800",
       "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&q=80&w=800"
     ],
-    agent: AGENTS[3], // Sophia Chen
+    agent: AGENTS[3], // Sanya Gujral
     featured: true,
     popular: true,
     amenities: ["Infinity Pool", "Wellness Spa", "Home Cinema", "Private Beach Access", "Wine Cellar", "Smart Automation", "Glass Elevator", "4-Car Garage"],
@@ -269,7 +269,7 @@ export const PROPERTIES: Property[] = [
       "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&q=80&w=800",
       "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=800"
     ],
-    agent: AGENTS[1], // Elena Rostova
+    agent: AGENTS[1], // Tara Deshmukh
     featured: true,
     popular: true,
     amenities: ["Rooftop Heated Pool", "Private Elevator", "Concierge Service", "Sky Terrace", "24/7 Security", "Chef's Kitchen", "Private Gym"],
@@ -299,7 +299,7 @@ export const PROPERTIES: Property[] = [
       "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800",
       "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&q=80&w=800"
     ],
-    agent: AGENTS[0], // Alistair Vance
+    agent: AGENTS[0], // Aditya Singhania
     featured: true,
     popular: false,
     amenities: ["Ski-in/Ski-out Access", "Thermal Hot Spring", "Glass Wine Room", "Outdoor Firepit", "Indoor Sauna", "Heated Driveway", "Billiards Lounge"],
@@ -328,7 +328,7 @@ export const PROPERTIES: Property[] = [
       "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200",
       "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=800"
     ],
-    agent: AGENTS[2], // Marcus Thorne
+    agent: AGENTS[2], // Kabir Kapoor
     featured: false,
     popular: true,
     amenities: ["Atrium Gardens", "LEED Platinum Cert", "Automated Parking", "Fiber Network", "Rooftop Helipad", "Executive Dining Hall"],
@@ -357,7 +357,7 @@ export const PROPERTIES: Property[] = [
       "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=1200",
       "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800"
     ],
-    agent: AGENTS[0], // Alistair Vance
+    agent: AGENTS[0], // Aditya Singhania
     featured: false,
     popular: false,
     amenities: ["Vineyard Rights", "Panoramic Valley Views", "Approved Blueprints", "Private Road Access", "Well & Geothermal Ready"],
@@ -386,7 +386,7 @@ export const PROPERTIES: Property[] = [
       "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200",
       "https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&q=80&w=800"
     ],
-    agent: AGENTS[2], // Marcus Thorne
+    agent: AGENTS[2], // Kabir Kapoor
     featured: true,
     popular: false,
     amenities: ["Private Pier Access", "Double-Height Atrium", "Solar Power Grid", "Sub-Level Loading Docks", "Premium Executive Lounges"],
@@ -415,7 +415,7 @@ export const PROPERTIES: Property[] = [
       "https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&q=80&w=1200",
       "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=800"
     ],
-    agent: AGENTS[3], // Sophia Chen
+    agent: AGENTS[3], // Sanya Gujral
     featured: false,
     popular: true,
     amenities: ["Geothermal Heating", "Solar Roof Tiles", "Organic Garden Bed", "Rainwater Filtering System", "Yoga Pavilion", "EV Supercharger"],
@@ -559,46 +559,46 @@ export const PROPERTIES: Property[] = [
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: "t1",
-    name: "Arthur Pendelton",
-    role: "Chairman, Pendelton Capital",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200",
-    comment: "Acquiring the Aurelia Pavilion through EDNO was an exercise in precision. Their private portfolio advisory was discrete, swift, and highly architectural. Truly sets a new benchmark for global real estate acquisitions.",
+    name: "Rajesh Singhania",
+    role: "Chairman, Singhania Group",
+    avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200",
+    comment: "Acquiring our Mumbai seafront pavilion through EDNO was an exercise in precision. Their private portfolio advisory was discrete, swift, and highly architectural. Truly sets a new benchmark for luxury real estate.",
     rating: 5,
-    location: "Malibu Owner",
+    location: "Mumbai Seafront Owner",
   },
   {
     id: "t2",
-    name: "Dr. Genevieve Sterling",
-    role: "Founder, Sterling BioTech",
-    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200",
-    comment: "The team at EDNO respects the value of privacy and design. They understood our need for a zero-carbon, architecture-first forest sanctuary. The obsidian aesthetic is a marvel.",
+    name: "Dr. Radhika Sen",
+    role: "Founder, Sen Biopharma",
+    avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200",
+    comment: "The team at EDNO respects the value of privacy and design. They understood our need for a zero-carbon, architecture-first forest sanctuary in Delhi NCR. The aesthetic is a marvel.",
     rating: 5,
-    location: "Sanctuary Woods Owner",
+    location: "Lutyens Delhi Owner",
   },
   {
     id: "t3",
     name: "Vikram Malhotra",
-    role: "CEO, Nexa Industries",
-    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200",
-    comment: "EDNO isn't a brokerage; they are architectural curators. The transaction of Vortice Sky Duplex was streamlined digitally with zero friction. The caliber of service is second to none.",
+    role: "CEO, Nexa Tech Ventures",
+    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200",
+    comment: "EDNO isn't a brokerage; they are architectural curators. The transaction of our sky duplex was streamlined digitally with zero friction. The caliber of service is second to none.",
     rating: 5,
-    location: "Aero District Owner",
+    location: "Bengaluru Sky Penthouse Owner",
   },
   {
     id: "t4",
-    name: "Alessia Moretti",
+    name: "Ananya Deshmukh",
     role: "Fine Art Curator",
-    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200",
+    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200",
     comment: "For my waterfront gallery showroom, finding a location with double-height volume and private pier frontage was essential. EDNO negotiated an off-market beachfront space that was absolute perfection.",
     rating: 5,
-    location: "Miami Business Owner",
+    location: "Goa Estate Owner",
   },
   {
     id: "t5",
-    name: "Rohit Singhania",
-    role: "Chairman, Singhania Group",
-    avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200",
-    comment: "The Sea Crest Residence exceeded every expectation. EDNO's understanding of India's ultra-luxury segment is unparalleled — they found us a Mumbai property that doesn't just overlook the sea, it commands it. Incomparable discretion and taste.",
+    name: "Karan Oberoi",
+    role: "Managing Director, Oberoi Enterprises",
+    avatar: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=200",
+    comment: "The Sea Crest Residence exceeded every expectation. EDNO's understanding of India's ultra-luxury segment is unparalleled — they found us a Mumbai property that doesn't just overlook the sea, it commands it. Incomparable discretion.",
     rating: 5,
     location: "Mumbai Seafront Owner",
   },
@@ -623,8 +623,8 @@ export const BLOGS: Blog[] = [
     date: "July 24, 2026",
     readTime: "6 min read",
     author: {
-      name: "Alistair Vance",
-      avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=100",
+      name: "Aditya Singhania",
+      avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=100",
     },
     category: "Architecture",
   },
@@ -637,8 +637,8 @@ export const BLOGS: Blog[] = [
     date: "June 18, 2026",
     readTime: "4 min read",
     author: {
-      name: "Sophia Chen",
-      avatar: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=100",
+      name: "Sanya Gujral",
+      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=100",
     },
     category: "Finance",
   },
@@ -651,8 +651,8 @@ export const BLOGS: Blog[] = [
     date: "May 30, 2026",
     readTime: "8 min read",
     author: {
-      name: "Marcus Thorne",
-      avatar: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=100",
+      name: "Kabir Kapoor",
+      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100",
     },
     category: "Sustainability",
   },
@@ -666,7 +666,7 @@ export const BLOGS: Blog[] = [
     readTime: "7 min read",
     author: {
       name: "Arjun Mehta",
-      avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=100",
+      avatar: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=100",
     },
     category: "Market Intelligence",
   },
