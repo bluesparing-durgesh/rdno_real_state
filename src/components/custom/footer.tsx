@@ -182,40 +182,7 @@ export function Footer() {
         <p className="text-[10px] tracking-wide text-zinc-500">
           &copy; {new Date().getFullYear()} EDNO Real Estate Registry. All Rights Reserved. Custom curated designs.
         </p>
-        <div className="flex items-center gap-4">
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center text-zinc-400 hover:text-accent hover:bg-white/10 transition-all duration-300"
-          >
-            <Linkedin size={14} />
-          </a>
-          <a
-            href="https://twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center text-zinc-400 hover:text-accent hover:bg-white/10 transition-all duration-300"
-          >
-            <Twitter size={14} />
-          </a>
-          <a
-            href="https://instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center text-zinc-400 hover:text-accent hover:bg-white/10 transition-all duration-300"
-          >
-            <Instagram size={14} />
-          </a>
-          <a
-            href="https://youtube.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center text-zinc-400 hover:text-accent hover:bg-white/10 transition-all duration-300"
-          >
-            <Youtube size={14} />
-          </a>
-        </div>
+     
       </div>
     </footer>
   );
