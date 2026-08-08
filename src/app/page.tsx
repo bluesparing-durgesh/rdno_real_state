@@ -333,13 +333,14 @@ export default function Home() {
                 <img
                   src={agent.image}
                   alt={agent.name}
+                  suppressHydrationWarning
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                 />
               </div>
-              <span className="text-[9px] uppercase font-bold tracking-widest text-secondary dark:text-accent">
+              <span suppressHydrationWarning className="text-[9px] uppercase font-bold tracking-widest text-secondary dark:text-accent">
                 {agent.role}
               </span>
-              <h3 className="text-sm font-bold text-zinc-900 dark:text-white mt-1">
+              <h3 suppressHydrationWarning className="text-sm font-bold text-zinc-900 dark:text-white mt-1">
                 {agent.name}
               </h3>
               <p className="text-[10px] text-zinc-600 dark:text-zinc-400 mt-1">

@@ -57,6 +57,7 @@ export default function AgentsPage() {
                 <img
                   src={agent.image}
                   alt={agent.name}
+                  suppressHydrationWarning
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
                 />
               </div>
@@ -64,10 +65,10 @@ export default function AgentsPage() {
               {/* Specs & Quote */}
               <div className="flex flex-col justify-between h-full flex-1">
                 <div>
-                  <span className="text-[10px] uppercase font-bold tracking-widest text-secondary dark:text-accent">
+                  <span suppressHydrationWarning className="text-[10px] uppercase font-bold tracking-widest text-secondary dark:text-accent">
                     {agent.role}
                   </span>
-                  <h3 className="text-lg font-bold text-zinc-950 dark:text-white mt-1">
+                  <h3 suppressHydrationWarning className="text-lg font-bold text-zinc-950 dark:text-white mt-1">
                     {agent.name}
                   </h3>
                   

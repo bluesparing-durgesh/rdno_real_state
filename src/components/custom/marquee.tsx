@@ -40,10 +40,11 @@ export function Marquee() {
               <img
                 src={t.avatar}
                 alt={t.name}
+                suppressHydrationWarning
                 className="w-10 h-10 rounded-full object-cover grayscale"
               />
               <div>
-                <h4 className="text-xs font-bold text-zinc-900 dark:text-white">{t.name}</h4>
+                <h4 suppressHydrationWarning className="text-xs font-bold text-zinc-900 dark:text-white">{t.name}</h4>
                 <p className="text-[9px] uppercase tracking-wider text-zinc-400 mt-0.5">
                   {t.role} &bull; <span className="text-accent">{t.location}</span>
                 </p>
