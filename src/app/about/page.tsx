@@ -44,13 +44,13 @@ export default function AboutPage() {
         </div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-6 text-center">
-          <span className="text-[10px] uppercase font-bold tracking-widest text-accent flex items-center justify-center gap-1">
+          <span className="text-[10px] uppercase font-extrabold tracking-[0.25em] text-[#D4AF37] flex items-center justify-center gap-1.5">
             <Sparkles size={12} /> The EDNO Legacy
           </span>
-          <h1 className="text-3xl md:text-5xl font-extrabold text-white tracking-tight mt-4">
+          <h1 className="font-cinzel text-3xl md:text-5xl font-black text-white tracking-tight mt-3">
             Curating Significant Architecture
           </h1>
-          <p className="text-zinc-300 text-xs mt-3 max-w-lg mx-auto leading-relaxed">
+          <p className="text-zinc-300 text-xs md:text-sm mt-3 max-w-lg mx-auto leading-relaxed font-light">
             Founded with the belief that a luxury property is not just an asset, but an organic, historical architectural statement.
           </p>
         </div>

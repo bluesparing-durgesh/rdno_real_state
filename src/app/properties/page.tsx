@@ -125,17 +125,17 @@ function PropertiesListContent() {
       {/* Dynamic Header */}
       <div className="flex flex-col md:flex-row justify-between items-start gap-4 mb-12">
         <div>
-          <span className="text-[10px] uppercase font-bold tracking-widest text-secondary dark:text-accent">
+          <span className="text-[10px] uppercase font-extrabold tracking-[0.25em] text-teal-700 dark:text-[#D4AF37]">
             {showFavsParam ? "Your Vault" : showCompareParam ? "Portfolio Compare" : "Registry Listing"}
           </span>
-          <h1 className="text-2xl md:text-4xl font-extrabold tracking-tight mt-1 text-zinc-950 dark:text-white">
+          <h1 className="font-cinzel text-3xl md:text-5xl font-black tracking-tight mt-1 text-zinc-950 dark:text-white">
             {showFavsParam
               ? "Private Registry Bookmarks"
               : showCompareParam
               ? "Asset Portfolio Comparison"
               : "Search Premium Properties"}
           </h1>
-          <p className="text-zinc-600 dark:text-zinc-400 text-xs mt-2 leading-relaxed">
+          <p className="text-zinc-600 dark:text-zinc-400 text-xs md:text-sm mt-2 leading-relaxed font-light">
             {showFavsParam
               ? "Review and consult on your handpicked luxury holdings."
               : showCompareParam

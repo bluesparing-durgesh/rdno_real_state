@@ -66,10 +66,10 @@ export function Footer() {
         
         {/* Brand Column */}
         <div className="lg:col-span-2 space-y-6">
-          <Link href="/" className="flex items-center gap-2">
-            <span className="text-2xl font-black tracking-widest text-white flex items-center gap-1.5">
+          <Link href="/" className="flex items-center gap-2 group cursor-pointer">
+            <span className="font-cinzel text-2xl font-black tracking-[0.25em] text-white flex items-center gap-2">
               E D N O
-              <span className="w-1.5 h-1.5 rounded-full bg-accent" />
+              <span className="w-2 h-2 rounded-full bg-[#D4AF37] animate-pulse shadow-[0_0_12px_#D4AF37]" />
             </span>
           </Link>
           <p className="text-xs text-zinc-400 dark:text-zinc-500 max-w-sm leading-relaxed">

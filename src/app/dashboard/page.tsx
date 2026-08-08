@@ -88,7 +88,7 @@ export default function DashboardPage() {
           {/* Header */}
           <div className="flex justify-between items-center pb-4 border-b border-black/[0.06] dark:border-white/[0.06]">
             <div>
-              <h1 className="text-xl md:text-2xl font-bold tracking-tight text-zinc-950 dark:text-white">
+              <h1 className="font-cinzel text-2xl md:text-3xl font-black tracking-tight text-zinc-950 dark:text-white">
                 Registry Dashboard
               </h1>
               <p className="text-[10px] text-zinc-400 mt-1 uppercase tracking-wider">
